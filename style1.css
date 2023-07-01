@@ -1,0 +1,263 @@
+.fea1{
+    background:url('./featuresback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: yellow;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: yellow;
+}
+
+.fea2{
+    max-width: 1200px;
+    margin: 10px;
+}
+.title h2{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h2{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.fea2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.fea2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.fea2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+
+.side{
+    padding-top: 20px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+  }
+  .benifito h1{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+
+}
+
+.benefito h1{
+    color: darkblue;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+.benifito img{
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;  
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+ 
+}
+.benifito h5{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.benifito1 h5{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito2 h5{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito3 h5{
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito4 h5{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito5 h5{
+    position: absolute;
+    top: 106%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito6 h5{
+    position: absolute;
+    top: 116%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito7 h5{
+    position: absolute;
+    top: 126%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito8 h5{
+    position: absolute;
+    top: 136%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito9 h5{
+    position: absolute;
+    top: 146%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.benifito10 h5{
+    position: absolute;
+    top: 156%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000;
+}
+.footer{
+    height:auto;
+    background-color:darkolivegreen;
+    padding:60px 0px 20px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    background-color:darkolivegreen;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding-bottom: 60px;
+
+
+}.footer{
+    height:auto;
+    background-color: rgb(236, 12, 225);
+    padding:60px 0px 20px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    background-color: rgb(236, 12, 225);
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding-bottom: 60px;
+
+
+}

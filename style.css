@@ -1,0 +1,504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background:url('./back1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 10px;
+}
+.title h2{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h2{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+
+.side{
+    padding-top: 20px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+  }
+  .about{
+    display: flex;
+    justify-content: end;
+    
+} 
+.about1{
+    display: flex;
+    justify-content: start;
+    color: blue;
+    padding: 30px;
+}
+
+.about3{
+    width: 10%;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 40px;
+    width: 600px;
+}
+.about0{
+        background-color: #fff;
+        color: rgb(255, 0, 0);
+        padding: 50px;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+.about2{
+    float: left;
+    padding-right:25px ;
+    width: -10%;
+    height: -10%;
+    padding-top: -10px;
+    
+}
+.about0 h1{
+    padding: -10px;
+}
+.boxer{
+    width: 350px;
+    height: auto;
+    background-color: rgb(215, 244, 28);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    
+
+}
+.img1{
+    width: 100%;
+    height: 250px;
+}
+.boxer{
+    text-align: left;
+    padding: 10px;
+}
+.c1txt{
+    text-align: center;
+    font-weight: bolder;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.faq h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #f6360b;
+    padding-left: -100px;
+    
+}
+.faq img{
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;
+}
+.deatail{
+    width: 1450px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(181, 244, 244);
+    cursor: pointer;
+    margin: 10px;
+}
+.faq{
+    width: 100%;
+    height: 100%s;
+    background-color: rgb(238, 183, 144);
+    padding-bottom: 10px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left:0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.faq2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.faq2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.faq2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.faq2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+.faq1{
+    background-color:  rgb(238, 183, 144);
+    padding-bottom: 10px;
+}
+.benifit1{
+    background:url('./benefitsb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 138vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.benifit2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.benifit2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.benifit2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.benifit2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+}
+
+.benifito h1{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+
+}
+
+.benefito h1{
+    color: #000000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+.benifito img{
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;  
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+ 
+}
+.benifito h5{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.benifito1 h5{
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+.benifito2 h5{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+.benifito3 h5{
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+.benifito4 h5{
+    position: absolute;
+    top: 101%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+.benifito5 h5{
+    position: absolute;
+    top: 111%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+.benifito6 h5{
+    position: absolute;
+    top: 128%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #000000;
+}
+
+.footer{
+    height:auto;
+    background-color:rgb(236, 12, 225);
+    padding:60px 0px 20px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    background-color:rgb(236, 12, 225);
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding-bottom: 60px;
+
+
+}
+
